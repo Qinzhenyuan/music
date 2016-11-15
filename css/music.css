@@ -1,0 +1,149 @@
+		img {
+			height: 80px;
+			width: 80px;
+			border-radius: 50%;
+		}
+		
+		ul {
+			display: flex;
+			flex-direction: column;
+		}
+		
+		li {
+			flex: 1;
+			text-align: center;
+			line-height: 100%;
+		}
+		
+		ul li {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			border-bottom: 1px solid silver;
+			display: flex;
+		}
+		
+		.active {
+			background: darkgray;
+		}
+		
+		.title {
+			flex: 2;
+			font-size: 16px;
+			padding: 5px;
+		}
+		
+		.singer {
+			padding-right: 20px;
+			color: darkslategray;
+		}
+		
+		.icon-yinledianzan {
+			color: grey;
+			font-size: 14px;
+			padding: 5px;
+		}
+		
+		.icon-gengduo {
+			color: #A9A9A9;
+			padding-right: 10px;
+		}
+		
+		.icon-sousuo {
+			position: absolute;
+			right: 50px;
+			top: 10px;
+		}
+		
+		#box {
+			overflow: scroll;
+			height: 80%;
+		}
+		
+		.mui-bar-tab .iconfont {
+			font-size: 30px;
+		}
+		
+		.mui-bar-tab{
+			
+			position: relative;
+			height: 14%;
+			
+			
+		}
+		
+		.play-status {
+			position: absolute;
+			top: 2%;
+			left: 25%;
+			
+			
+		
+		}
+		
+		.huiqu{
+			
+			
+			
+		}
+		
+		.mui-bar-tab a:nth-child(1){
+		    width: 0;
+		    height: 0;
+		}
+		
+		
+		.name {
+			padding: 10px;
+		}
+		
+		.gelist {
+			padding: 20px;
+		}
+		
+		.gelist h2 {
+			padding: 10px 0;
+			color: white;
+		}
+		
+		.play-status {
+			padding: 0;
+			margin: 0;
+			width: 300px;
+		}
+		
+		.mui-bar-nav {
+			background: #C0C0C0;
+		}
+		
+		.mui-title {
+			color: cornsilk;
+			font-size: 25px;
+			font-weight: 600;
+		}
+		
+		.icon-fanhui {
+			font-size: 28px;
+		}
+		
+		progress {
+			width: 250px;
+			height: 5px;
+		}
+		
+		time {
+			font-size: 14px;
+		}
+		
+		.play {
+			animation: rota 10s linear infinite;
+		}
+		
+		@keyframes rota {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);
+			}
+		}

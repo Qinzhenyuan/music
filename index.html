@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> 音乐播放器</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/music.css"/>
+		<script src="js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/touch.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/music.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+		
+		
+			<script src="js/mui.js"></script>
+			
+		
+	
+	</head>
+
+	<body>
+	
+		
+	
+		
+		
+		
+   
+          
+           <div class="mui-off-canvas-wrap mui-draggable">
+               <!-- 主页面容器 -->
+               
+               
+               
+                       <!-- 搜索页-->
+                     <div class="mui-content mui-scroll-wrapper" id="box1">
+                       <div class="mui-scroll2">
+                        
+                        	 <!-- 主页面标题头 -->
+                   <header class="mui-bar mui-bar-nav  nav2">
+                     
+                      
+                       <input type="search" name="txt" id="txt" value="" placeholder="搜索你想听的歌曲" />
+                       <span class=" iconfont icon-sousuo"></span>
+                        <a class="iconfont icon-fanhui"></a>
+                      
+                   </header>
+                        
+                      <!--搜索音乐 内容-->
+                    
+                       
+                   
+                   
+                      
+                       </div>
+                   </div>
+               
+               
+               
+               <div class="mui-inner-wrap">
+               	
+               	 <!-- 主页面标题头 -->
+                   <header class="mui-bar mui-bar-nav">
+                     
+                       <h1 class="mui-title">本地音乐</h1>
+                      
+                       <span class=" iconfont icon-sousuo"></span>
+                       
+                      
+                   </header>
+            
+                 
+                   
+       
+                   
+                    <!-- 侧滑导航根容器 -->
+                   <aside class="mui-off-canvas-left" id="offCanvasSide">
+                       <div class="mui-scroll-wrapper">
+                           <div class="mui-scroll1">
+                           	
+                             
+                           	<img class="name"  src="img/feizao.jpg"/>
+                           	
+                           	
+                        <!-- 歌曲榜单-->
+				          <nav  class="gelist">
+                           	<h2  data="1">新歌榜</h2>
+                           	 <h2 data="2">热歌榜</h2>
+                           	 <h2  data="11">摇滚榜</h2>
+                           	 <h2  data="12">爵士</h2>
+                           	 <h2  data="16">流行</h2>
+                           	 <h2  data="21">欧美金曲榜</h2>
+                           	 <h2  data="22">经典老歌</h2>
+                           	  <h2  data="23">情歌对唱榜</h2>
+                           	   <h2  data="24">影视金曲榜</h2>
+                           	    <h2  data="25">网络歌曲榜</h2>
+                           	 
+                           	 
+                           	 
+                           	 
+                           	
+                           	 </nav>
+                           	 
+                               
+                           </div>
+                       </div>
+                   </aside>
+                  
+                   
+             
+                        <div class="mui-content mui-scroll-wrapper" id="box">
+                       <div class="mui-scroll">
+                        
+                        
+                        
+                      <!--音乐 内容-->
+                    
+                       
+              
+                   
+                 
+                       </div>
+                   </div>
+               
+              
+                   
+                  <!-- 播放按钮nav-->
+                   <nav class="mui-bar mui-bar-tab">
+                         <a class="mui-tab-item mui-active">              
+                               <!--	进度条-->
+           		  <div class="play-status">
+	              					<progress max="100" value="0"></progress> 
+                  					<time class="left">-00:00</time>
+                  				</div>
+		               </a>       
+                                  
+           		    <a class="mui-tab-item mui-active">
+           		     
+           		        <img  class="tu" src="img/feizao.jpg"/>
+           		       
+           		    </a>
+           		    <a class="mui-tab-item">
+           		        <span class="iconfont icon-shangyishou"  id="shang"></span>
+           		      
+           		    </a>
+           		    <a class="mui-tab-item">
+           		        <span class="iconfont icon-yinlebofang"  id="play"></span>
+           		     
+           		    </a>
+           		    <a class="mui-tab-item">
+           		        <span class="iconfont icon-shangxiayishou" id="xia"></span>
+           		        
+           		    </a>
+           		</nav>
+                  
+              
+              	
+               </div>
+           </div>
+    	      	
+		                 
+	</body>
+
+</html>
